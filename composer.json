@@ -1,0 +1,22 @@
+{
+    "name": "russell/mail-api",
+    "description": "A simple api to send mail through smtp servers",
+    "type": "project",
+    "require": {
+        "flightphp/core": "^3.8",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "license": "GLWTPL",
+    "autoload": {
+        "psr-4": {
+            "Russell\\MailApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Japheth Russell",
+            "email": "japheth.russell@idealabsoftware.com"
+        }
+    ]
+}

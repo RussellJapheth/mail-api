@@ -1,0 +1,3 @@
+<?php
+
+namespace Russell\MailApi;
